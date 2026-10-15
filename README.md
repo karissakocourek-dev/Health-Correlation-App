@@ -1,1 +1,3 @@
 # Health-Correlation-App
+
+This Streamlit app (`app.py`) explores correlations between health measurements for 4,433 adults in the CDC's 2017–2018 National Health and Nutrition Examination Survey (NHANES), loaded from `nhanes_health.csv`. It includes a data preview, a pairwise scatter plot that shows r and n with a trend line or binned means and optional coloring by health thresholds such as SBP ≥ 130, and a correlation heatmap with a coolwarm color scale fixed from −1 to 1. Sidebar filters for sex and age range, plus a Pearson/Spearman toggle, update every view, and the app's numbers are checked against pandas in `verification.md`, alongside the prompt log (`prompts.md`) and approved plan (`plan.md`).
